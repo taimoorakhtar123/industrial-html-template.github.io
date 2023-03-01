@@ -788,3 +788,9 @@ h6,
     margin-left: 55px !important;
 
 }
+
+@media only screen and (max-width: 576px) {
+    .mt-xs-3 {
+        margin-top: 20px !important;
+    }
+}

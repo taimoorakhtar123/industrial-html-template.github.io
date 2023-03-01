@@ -115,6 +115,13 @@
         }
     });
 
+    var url = location.hash;
+    if(!url) {
+        url = '#'
+    }
+    $('.navbar-nav a[href="' + url + '"]')
+      .closest('a')
+      .addClass('active');
     
 })(jQuery);
 
